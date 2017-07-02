@@ -37,10 +37,12 @@
 	<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css">
 
 	<link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
-
-	<link rel="stylesheet" href="css/icomoon.css">
+    
+    <link href="vendor/aos/aos.css" rel="stylesheet">
 
 	<link rel="stylesheet" href="css/style.css">
+    
+    
 
 	<title>Yadab - Portfolio</title>
 
@@ -50,7 +52,7 @@
 	<!-- Navigation -->
 
 	<!-- Header -->
-	<header style="background: url(images/hero-img9.jpg);">
+	<header style="background: url(images/header-bg.jpg);">
 
 		<nav class="navbar navbar-default navbar-me">
 			<div class="container-fluid ">
@@ -75,12 +77,13 @@
 						<li>
 							<a class="" href="#yadab-stat">Stats</a>
 						</li>
+                        <li>
+							<a class="" href="#yadab-work">Projects</a>
+						</li>
 						<li>
 							<a class="" href="">Contact</a>
 						</li>
-						<li>
-							<a class="" href="">Projects</a>
-						</li>
+						
 					</ul>
 				</div>
 				<!-- /.navbar-collapse -->
@@ -91,6 +94,7 @@
 		<div class="container" id="maincontent">
 			<div class="row">
 				<div class="col-lg-12">
+                    <!--<div class="profile-thumb" ><img class="img-circle" src="images/profile-pic.jpg"></div>-->
 					<div class="intro-text">
 						<h1 class="name">Yadab Nepal</h1>
 						<hr class="star-light">
@@ -101,14 +105,14 @@
 		</div>
 	</header>
 
-	<div id="yadab-aboutMe" class="animate-box">
+	<div id="yadab-aboutMe">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center yadab-heading">
 					<h2>About Me</h2>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row" data-aos="fade-up" data-aos-offset="10">
 
 				<div class="col-md-4">
 					<ul class="info">
@@ -135,7 +139,7 @@
 
 	<div id="yadab-resume" class="yadab-bg-color">
 		<div class="container">
-			<div class="row animate-box">
+			<div class="row ">
 				<div class="col-md-8 col-md-offset-2 text-center yadab-heading">
 					<h2>My Resume</h2>
 				</div>
@@ -143,12 +147,12 @@
 			<div class="row">
 				<div class="col-md-12 col-md-offset-0">
 					<ul class="timeline">
-						<li class="timeline-heading text-center animate-box">
+						<li class="timeline-heading text-center">
 							<div>
 								<h3>Work Experience</h3></div>
 						</li>
-						<li class="animate-box timeline-unverted">
-							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+						<li class=" timeline-unverted" data-aos="fade-right"  data-aos-offset="10">
+							<div class="timeline-badge"><i class="fa fa-suitcase"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">Junior Developer</h3>
@@ -159,8 +163,8 @@
 								</div>
 							</div>
 						</li>
-						<li class="timeline-inverted animate-box">
-							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+						<li class="timeline-inverted" data-aos="fade-left"  data-aos-offset="10">
+							<div class="timeline-badge"><i class="fa fa-suitcase"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">Web Developer</h3>
@@ -173,13 +177,13 @@
 						</li>
 
 						<br>
-						<li class="timeline-heading text-center animate-box">
+						<li class="timeline-heading text-center">
 							<div>
 								<h3>Education</h3></div>
 						</li>
 
-						<li class="animate-box timeline-unverted">
-							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+						<li class="timeline-unverted " data-aos="fade-right"  data-aos-offset="10">
+							<div class="timeline-badge"><i class="fa fa-graduation-cap"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">Masters Degree</h3>
@@ -190,8 +194,8 @@
 								</div>
 							</div>
 						</li>
-						<li class="timeline-inverted animate-box">
-							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+						<li class="timeline-inverted" data-aos="fade-left"  data-aos-offset="10">
+							<div class="timeline-badge"><i class="fa fa-graduation-cap"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">Bachelor Degree</h3>
@@ -208,41 +212,43 @@
 			</div>
 		</div>
 	</div>
+    
+    
 	
 	
 	
 	<div id="yadab-stat" class="yadab-bg-color">
 		<div class="container">
-			<div class="row animate-box">
+			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center yadab-heading">
 					<h2>My Stats</h2>
 				</div>
 			</div>
 		<div class="stat">
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                <div class="milestone-counter">
-                    <i class="fa fa-user fa-3x"></i>
-                    <span class="stat-count highlight">122</span>
-                    <div class="milestone-details">Happy Customers</div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" >
+                <div class="milestone-counter" >
+                    <i class="fa fa-certificate fa-3x" ></i>
+                    <span class="stat-count highlight">20</span>
+                    <div class="milestone-details" >Certificate</div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                 <div class="milestone-counter">
                     <i class="fa fa-coffee fa-3x"></i>
-                    <span class="stat-count highlight">866</span>
-                    <div class="milestone-details">Ordered Coffee's</div>
+                    <span class="stat-count highlight">200</span>
+                    <div class="milestone-details">Coffee</div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" >
                 <div class="milestone-counter">
                     <i class="fa fa-trophy fa-3x"></i>
                     <span class="stat-count highlight">4</span>
-                    <div class="milestone-details">Awards Win</div>
+                    <div class="milestone-details">Awards Won</div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" >
                 <div class="milestone-counter">
-                    <i class="fa fa-camera fa-3x"></i>
+                    <i class="fa fa-folder-open fa-3x"></i>
                     <span class="stat-count highlight">5</span>
                     <div class="milestone-details">Projects</div>
                 </div>
@@ -250,9 +256,88 @@
 		</div><!-- stat -->
 		</div>
 	</div>
+    
+    <div id="yadab-work" class="yadab-bg-dark">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center yadab-heading">
+					<h2>Work</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 text-center col-padding " data-aos="fade-up" data-aos-offset="10">
+					<a href="#" class="work" style="background-image: url(images/portfolio-1.jpg);">
+						<div class="desc">
+							<h3>Apple Store</h3>
+							<span>Python Django</span>
+						</div>
+					</a>
+				</div> 
+				<div class="col-md-3 text-center col-padding " data-aos="fade-up" data-aos-offset="40">
+					<a href="#" class="work" style="background-image: url(images/portfolio-2.jpg);">
+						<div class="desc">
+							<h3>Electronic Voting System</h3>
+							<span>Java, Hibernate, Spring</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding" data-aos="fade-up" data-aos-offset="70">
+					<a href="#" class="work" style="background-image: url(images/portfolio-3.jpg);">
+						<div class="desc">
+							<h3>Node Generator</h3>
+							<span>JavaScript</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding" data-aos="fade-up" data-aos-offset="100">
+					<a href="#" class="work" style="background-image: url(images/portfolio-4.jpg);">
+						<div class="desc">
+							<h3>Project Name</h3>
+							<span>Design</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding " data-aos="fade-up" data-aos-offset="130">
+					<a href="#" class="work" style="background-image: url(images/portfolio-5.jpg);">
+						<div class="desc">
+							<h3>Project Name</h3>
+							<span>Website</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding " data-aos="fade-up" data-aos-offset="160">
+					<a href="#" class="work" style="background-image: url(images/portfolio-6.jpg);">
+						<div class="desc">
+							<h3>Project Name</h3>
+							<span>Illustration</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding " data-aos="fade-up" data-aos-offset="190">
+					<a href="#" class="work" style="background-image: url(images/portfolio-7.jpg);">
+						<div class="desc">
+							<h3>Project Name</h3>
+							<span>Brading</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding " data-aos="fade-up" data-aos-offset="210">
+					<a href="#" class="work" style="background-image: url(images/portfolio-8.jpg);">
+						<div class="desc">
+							<h3>Project Name</h3>
+							<span>Illustration</span>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
 	
 </body>
+    
+<script src="vendor/aos/aos.js"></script>
 <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/jquery.appear.js" type="text/javascript"></script>
 <script src="js/layout.js" type="text/javascript"></script>
 
 <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
