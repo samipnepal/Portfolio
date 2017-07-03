@@ -14,7 +14,8 @@ body {
 
 header {
   text-align: center;
-  color: white;   
+  color: white;
+  background: url("../images/portfolio-1.jpg") no-repeat bottom center scroll;
 }
 header .container {
   padding-top: 100px;
@@ -35,7 +36,12 @@ header .intro-text .skills {
   font-size: 1.25em;
   font-weight: 300;
 }
+
+
 @media (min-width: 768px) {
+  header{
+    background: url("../images/header-bg.jpg") no-repeat bottom center scroll;
+  }
   header .container {
     padding-top: 100px;
     padding-bottom: 250px;
@@ -156,13 +162,9 @@ header img {
 .fixed-me{
     transition: all 1s ;
 }
-#navbar-primary-collapse {
-    color: antiquewhite !important;
-}
 
 .fixed-me{
     background-color:#023f5c !important;
-    color: antiquewhite;
     padding: 0px  !important;
     margin-bottom: 5px;
     position: fixed;
@@ -206,6 +208,18 @@ header img {
     background-color: transparent;
 }
 
+.navbar-default .navbar-nav > li > a{
+	color: aliceblue !important;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+	color: black !important;
+}
+
+.fixed-me .navbar-nav > li > a:hover, .fixed-me .navbar-nav > .active > a{
+	color: black !important;
+	background-color: antiquewhite;
+}
 
 hr.star-light,
 hr.star-primary {
@@ -283,11 +297,6 @@ hr.star-primary {
   margin-left: 0px;
 }
 @media screen and (max-width: 768px) {
-  .timeline:before {
-    margin-left: -64px;
-  }
-}
-@media screen and (max-width: 480px) {
   .timeline:before {
     margin-left: -64px;
   }
