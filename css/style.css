@@ -67,11 +67,8 @@ header img {
 #yadab,
 #yadab-aboutMe,
 #yadab-resume,
-#yadab-skills,
-#yadab-started,
+#yadab-stat,
 #yadab-work,
-#yadab-blog,
-#yadab-pricing,
 #yadab-contact {
   padding: 5em 0;
   clear: both;
@@ -81,11 +78,8 @@ header img {
   #yadab,
   #yadab-aboutMe,
   #yadab-resume,
-  #yadab-skills,
-  #yadab-started,
+  #yadab-stat,
   #yadab-work,
-  #yadab-blog,
-  #yadab-pricing,
   #yadab-contact {
     padding: 3em 0;
   }
@@ -98,8 +92,6 @@ header img {
 .yadab-bg-dark .yadab-heading h2 {
   color: #fff !important;
 }
-
-
 
 .yadab-social-icons {
   margin: 0;
