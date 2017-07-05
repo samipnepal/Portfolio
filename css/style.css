@@ -69,6 +69,7 @@ header img {
 #yadab-resume,
 #yadab-stat,
 #yadab-work,
+#yadab-skills,
 #yadab-contact {
   padding: 5em 0;
   clear: both;
@@ -80,9 +81,16 @@ header img {
   #yadab-resume,
   #yadab-stat,
   #yadab-work,
+  #yadab-skills,
   #yadab-contact {
     padding: 3em 0;
   }
+}
+#yadab-work,
+#yadab-skills{
+-moz-box-shadow: 0 0 5px 5px #888;
+-webkit-box-shadow: 0 0 5px 5px#888;
+box-shadow: 0 0 5px 5px #888;
 }
 
 .yadab-bg-dark {
@@ -210,7 +218,7 @@ header img {
 
 .fixed-me .navbar-nav > li > a:hover, .fixed-me .navbar-nav > .active > a{
 	color: black !important;
-	background-color: antiquewhite;
+	background-color: #faead6;
 }
 
 hr.star-light,
@@ -573,3 +581,26 @@ hr.star-primary {
   transform: translate3d(0, 0, 0);
 }
 
+.chart {
+  width: 160px;
+  height: 160px;
+  margin: 0 auto 40px auto;
+  position: relative;
+  text-align: center;
+  color: aliceblue;
+}
+.chart span {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -30px;
+  width: 100%;
+}
+.chart span strong {
+  display: block;
+}
+.chart canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
